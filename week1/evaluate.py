@@ -9,7 +9,7 @@ DATASETS = ["data1", "data2", "data3", "data4"]   # list dataset directories her
 SCRIPT_PY = "week1/code/main.py"
 SCRIPT_CO = "week1/code/main_codon.py"
 PYTHON = "python3"
-CODON = ["${HOME}/.codon", "run", "-release"]
+CODON = ["codon", "run", "-release"]
 
 def compute_n50(fasta_file: Path) -> int:
     lengths = []

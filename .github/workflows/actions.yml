@@ -13,6 +13,7 @@ jobs:
           curl -L https://github.com/exaloop/codon/releases/download/v0.19.3/codon-linux-x86_64.tar.gz | tar zxvf - --strip-components=1 -C ${HOME}/.codon
           curl -L https://github.com/exaloop/seq/releases/download/v0.11.5/seq-linux-x86_64.tar.gz | tar zxvf - -C ${HOME}/.codon/lib/codon/plugins
           export PATH=${PATH}:${HOME}/.codon/bin
+          echo "${HOME}/.codon/bin" >> $GITHUB_PATH 
       - name: Check out repository code
         uses: actions/checkout@v5
       - uses: actions/setup-python@v6
