@@ -6,8 +6,8 @@ from pathlib import Path
 
 FDIR = "week1/data/"
 DATASETS = ["data1", "data2", "data3", "data4"]   # list dataset directories here
-SCRIPT_PY = "code/main.py"
-SCRIPT_CO = "code/main_codon.py"
+SCRIPT_PY = "week1/code/main.py"
+SCRIPT_CO = "week1/code/main_codon.py"
 PYTHON = "python3"
 CODON = ["codon", "run", "-release"]
 
