@@ -4,7 +4,7 @@ import time
 import os
 from pathlib import Path
 
-FDIR = "data/"
+FDIR = "week1/data/"
 DATASETS = ["data1", "data2", "data3", "data4"]   # list dataset directories here
 SCRIPT_PY = "code/main.py"
 SCRIPT_CO = "code/main_codon.py"
